@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex: 1;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.hero,
+.cardspace,
+.quote,
+.signup-zone {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.slogan,
+.logo {
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.slogan {
+    font-size: 48px;
+}
+
+.teaser {
+    flex-basis: 500px;
+}
+
+.image-container {
+    flex-basis: 500px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 2vh 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.card-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+.signup-zone {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    justify-content: space-between;
+}
+
+.button-container,
+.card-title {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    padding: 24px;
+}
+
+.cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card { 
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+    width: 200px;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    justify-self: flex-end;
+    color: #e5e7eb;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
+
+.hero-content {
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.links {
+    justify-content: flex-end;
+}
