@@ -46,17 +46,16 @@ a {
 
 .slogan {
     font-size: 48px;
+    flex: 0;
 }
 
 .teaser {
-    flex-basis: 500px;
+    flex-basis: 400px;
 }
 
 .image-container {
     flex-basis: 500px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -67,6 +66,23 @@ a {
     flex-grow: 0;
 }
 
+#sign-up-blue {
+    padding: 4px 20px;
+    margin-top: 8px;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.subtext {
+    padding: 12px 0;
+    flex: 0;
+}
 .card-title {
     color: #1f2937;
     font-size: 36px;
@@ -121,6 +137,14 @@ img {
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+#main-image {
+    width: 400px;
+    height: auto;
+    border: 2px solid #e5e7eb;
+    border-radius: 20px;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
@@ -137,6 +161,7 @@ img {
 
 .hero-content {
     justify-content: space-between;
+    gap: 40px;
     padding: 60px 0;
 }
 
