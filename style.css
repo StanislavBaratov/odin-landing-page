@@ -54,10 +54,12 @@ a {
 }
 
 .image-container {
-    flex-basis: 500px;
+    flex: 0;
+    flex-basis: 400px;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .copyright {
