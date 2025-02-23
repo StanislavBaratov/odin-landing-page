@@ -42,6 +42,7 @@ a {
 
 .logo {
     font-size: 24px;
+    flex: 0 0 170px;
 }
 
 .slogan {
@@ -72,6 +73,8 @@ a {
     padding: 32px 0;
     flex-shrink: 0;
     flex-grow: 0;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 #sign-up-blue {
@@ -123,8 +126,8 @@ ul {
 .cards {
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 24px;
+    align-items: flex-start;
+    gap: 60px;
 }
 
 .card { 
@@ -182,7 +185,7 @@ img {
 .quote {
     margin-top: 40px;
     background-color: #e5e7eb;
-    padding: 52px;
+    padding: 52px 15vw;
     color: #1f2937;
     font-size: 36px;
     flex: 0;
@@ -190,4 +193,11 @@ img {
 
 .quote-text {
     font-weight: lighter;
+}
+
+.author {
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 12px;
 }
