@@ -57,6 +57,12 @@ a {
     flex-basis: 500px;
     justify-content: flex-end;
     align-items: center;
+    flex-direction: column;
+}
+
+.copyright {
+    color: #e5e7eb;
+    margin-top: 4px;
 }
 
 .header {
