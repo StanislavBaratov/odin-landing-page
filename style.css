@@ -95,6 +95,8 @@ a {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    flex: 0;
+    padding: 40px;
 }
 
 ul {
@@ -116,9 +118,7 @@ ul {
     justify-content: center;
 }
 
-.card-title {
-    padding: 24px;
-}
+
 
 .cards {
     flex-wrap: wrap;
@@ -135,6 +135,7 @@ ul {
     text-align: center;
     padding: 0;
     margin: 0;
+    flex: 0;
 }
 
 img {
@@ -171,8 +172,22 @@ img {
     justify-content: space-between;
     gap: 40px;
     padding: 60px 0;
+    flex-wrap: wrap;
 }
 
 .links {
     justify-content: flex-end;
+}
+
+.quote {
+    margin-top: 40px;
+    background-color: #e5e7eb;
+    padding: 52px;
+    color: #1f2937;
+    font-size: 36px;
+    flex: 0;
+}
+
+.quote-text {
+    font-weight: lighter;
 }
