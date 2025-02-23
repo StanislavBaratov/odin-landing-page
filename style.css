@@ -77,17 +77,21 @@ a {
     gap: 20px;
 }
 
-#sign-up-blue {
-    padding: 4px 20px;
-    margin-top: 8px;
+button {
     width: 100px;
     height: 30px;
-    border: 0;
-    border-radius: 5px;
-    background-color: #3882f6;
     color: #e5e7eb;
     font-weight: 900;
     font-size: 16px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#sign-up-blue {
+    margin-top: 8px;
+    border: 0;
+    background-color: #3882f6;
+    
 }
 
 .subtext {
@@ -110,9 +114,10 @@ ul {
     gap: 20px;
 }
 .signup-zone {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
     justify-content: space-between;
+    flex: 0;
 }
 
 .button-container,
@@ -200,4 +205,41 @@ img {
     font-weight: 900;
     font-size: 24px;
     margin-top: 12px;
+}
+
+.blue-rectangle {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 100px;
+    border: 0;
+    border-radius: 12px;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.button-container {
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+}
+
+.message-header {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#white-border-button {
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.picture {
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.card-copyright {
+    color: #1f2937;
 }
